@@ -1,3 +1,5 @@
+//3rd Highest Number in Array
+
 // Having an array of numbers, write an algorithm that will
 // return the 3rd highest number in the array. Your algorithm
 // should do only one iteration of the array (just one for/while loop).
