@@ -17,8 +17,8 @@
 function findLongestWord(string) {
   let wordArray = string.split(" ");
   //[May, the, force, be, with, you]
-  let max = wordArray[0].length;
-  for (let i = 1; i < wordArray.length; i++) {
+  let max = 0;
+  for (let i = 0; i < wordArray.length; i++) {
     if (max < wordArray[i].length) {
       max = wordArray[i].length;
     }
